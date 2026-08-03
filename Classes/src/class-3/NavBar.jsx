@@ -4,13 +4,17 @@ import { Link } from 'react-router-dom'
 const NavBar = () => {
   return (
     <div className='nav'>
-        <Link to={'/'}> 
-        <span>Home</span>
+        <Link to={"/"}>   
+   
+        <li>Home</li>
         </Link>
+       
         <Link to={'/about'}>  
-        <span>About</span>
+        <li>About</li>
         </Link>
-        <span>Contact Us</span>
+        <li>list</li>
+
+        {/* https://www.reddit.com/r/cats/ */}
 
 
     </div>
