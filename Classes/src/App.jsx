@@ -7,8 +7,9 @@ import { Route, Routes } from 'react-router-dom'
 // import UseReducerDemo from './class-5/useReduserDemo'
 // import StateExample from './class_01/StateExample'
 // import ColorChanger from './class-1/ColorChanger';
-import Student from './class-1/child';
+// import Student from './class-1/child';
 // https://github.com/Rupesh155
+import MemoDemo from './class-6/MemoDemo';
 
 const App = () => {
   return (
@@ -21,13 +22,14 @@ const App = () => {
         <Route  path='/about'   element={<About/>}/>
 
        </Routes> */}
-       <Student name = "Ayush" age = "20" />
+       {/* <Student name = "Ayush" age = "20" />
        <Student name = "Kanishk" age = "21" />
-       <Student name = "Pratham" age = "22" />
+       <Student name = "Pratham" age = "22" /> */}
 
        {/* <UseReducerDemo /> */}
        {/* <ColorChanger /> */}
-       {Student}
+       {/* {Student} */}
+       <MemoDemo />
     </div>
   );
 };
