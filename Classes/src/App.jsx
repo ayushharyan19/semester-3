@@ -4,8 +4,9 @@ import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 // import Home from './class-3/Home'
 // import About from './class-3/About'
-import UseReducerDemo from './class-5/useReduserDemo'
+// import UseReducerDemo from './class-5/useReduserDemo'
 // import StateExample from './class_01/StateExample'
+import ColorChanger from './class-1/ColorChanger';
 // https://github.com/Rupesh155
 
 const App = () => {
@@ -19,7 +20,8 @@ const App = () => {
         <Route  path='/about'   element={<About/>}/>
 
        </Routes> */}
-       <UseReducerDemo />
+       {/* <UseReducerDemo /> */}
+       <ColorChanger />
     </div>
   );
 };
